@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: #d4d4d2;
+}
+h1{
+    margin-block-start: 0em;
+    color: white;
+}
+
+.input__area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.container {
+    background-color: #1c1c1c;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: rgb(136, 0, 255);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    flex: 1;
+}
+
+button:hover {
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    opacity: 1;
+    color: #000;
+}
